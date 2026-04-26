@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sandbox Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a class="brand" href="index.html">☕ Sandbox</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Welcome to the Sandbox</h1>
+    <p>A small example website to explore HTML, CSS, and JavaScript.</p>
+    <a class="btn btn-light" href="about.html">Learn more</a>
+  </section>
+
+  <!-- Feature cards -->
+  <div class="section">
+    <h2>Features</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🎨</div>
+        <h3>Clean Design</h3>
+        <p>Responsive layout built with plain CSS — no frameworks required.</p>
+      </div>
+      <div class="card">
+        <div class="icon">⚡</div>
+        <h3>Vanilla JS</h3>
+        <p>Interactive widgets powered by lightweight vanilla JavaScript.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📐</div>
+        <h3>Semantic HTML</h3>
+        <p>Accessible markup using semantic HTML5 elements throughout.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive counter -->
+  <div class="section">
+    <h2>Interactive Widget</h2>
+    <div class="counter-widget">
+      <h2>Counter</h2>
+      <div class="counter-display" id="count">0</div>
+      <div class="btn-group">
+        <button class="btn btn-outline" id="btn-dec">−</button>
+        <button class="btn btn-primary" id="btn-inc">+</button>
+        <button class="btn btn-outline" id="btn-reset">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 GitPushCoffee · Sandbox</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
